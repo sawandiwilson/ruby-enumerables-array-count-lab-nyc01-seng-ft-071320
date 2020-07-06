@@ -9,8 +9,8 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  array.count do []
-  num > 0
-  count_empty_strings
+   array.count do |element|
+    element == "" 
+  end
 end
 
